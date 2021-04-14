@@ -4,9 +4,7 @@
         <meta charset="utf-8">
         <title>Blog</title>
 
-                    <p class='body'>{{ $post->body }}</p>
                 </div>
-            @endforeach
         </div>
     </body>
 </html>
