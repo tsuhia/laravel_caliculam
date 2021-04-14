@@ -3,11 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Blog</title>
-    <body>
-        <h1>Blog Name</h1>
-        <div class='posts'>
-            @foreach ($posts as $post)
-                <div class='post'>
+
                     <p class='body'>{{ $post->body }}</p>
                 </div>
             @endforeach

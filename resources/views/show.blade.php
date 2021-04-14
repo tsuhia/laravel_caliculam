@@ -10,6 +10,7 @@
     </head>
     <body>
         <h1 class="title">{{ $post->title }}</h1>
+
             <a href="/">戻る</a>
         </div>
     </body>
