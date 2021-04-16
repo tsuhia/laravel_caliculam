@@ -10,6 +10,7 @@ class PostController extends Controller
 {
     public function index(Post $post)
     {
+
         return view('index')->with(['posts' => $post->getPaginate()]);
     }
     public function show(Post $post)
@@ -27,3 +28,4 @@ class PostController extends Controller
         return redirect('/posts/' . $post->id);
     }
 }
+?>
