@@ -1,7 +1,5 @@
 <?php
-
 namespace App\Http\Requests;
-
 use Illuminate\Foundation\Http\FormRequest;
 
 class PostRequest extends FormRequest
@@ -13,5 +11,5 @@ class PostRequest extends FormRequest
             'post.body' => 'required|string|max:4000',
         ];
     }
-}
+} 
 

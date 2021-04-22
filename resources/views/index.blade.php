@@ -21,4 +21,4 @@
             {{ $posts->links() }}
         </div>
     </body>
-</html>
+</html> 

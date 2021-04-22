@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use App\Post;
@@ -14,7 +13,7 @@ class PostController extends Controller
     }
     public function show(Post $post)
     {
-        return view('show')->with(['posts' => $post]);
+        return view('show')->with(['post' => $post]);
     }
     public function create()
     {
@@ -37,5 +36,11 @@ class PostController extends Controller
 
         return redirect('/posts/' . $post->id);
     }
+    public function destroy(Post $post)
+    {
+        $post->delete();
+        return redirect('/posts');
+    }
 }
 ?>
+

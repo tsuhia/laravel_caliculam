@@ -20,6 +20,6 @@
             </div>
             <input type="submit" value="保存"/>
         </form>
-        <div class="back">[<a href="/">back</a>]</div>
+        <div class="footer">[<a href="/">back</a>]</div>
     </body>
 </html>
